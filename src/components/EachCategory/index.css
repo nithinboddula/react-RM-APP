@@ -1,0 +1,83 @@
+.item-container {
+  border-radius: 5px;
+  border: 1px solid #b5afac;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 5px;
+}
+
+.first-part-container {
+  display: flex;
+  flex-direction: row;
+  padding: 0px;
+}
+
+.text-container {
+  padding: 0px;
+}
+.item-name {
+  color: black;
+  font-family: 'Roboto';
+  font-size: 18px;
+  margin-top: 5px;
+}
+.item-price {
+  color: #212020;
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: 500;
+  margin: 1px;
+}
+.item-description {
+  color: #524e4e;
+  font-family: 'Roboto';
+  font-size: 15px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.item-image {
+  height: 150px;
+  width: 150px;
+}
+.calories {
+  color: orange;
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: 500;
+  align-self: center;
+  text-align: center;
+}
+
+.customization {
+  color: #0b0969;
+  font-family: 'Roboto';
+  font-size: 15px;
+}
+
+.button-style {
+  background-color: green;
+  width: 90px;
+  padding: 5px;
+  border-radius: 25px;
+  margin-top: 3px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.button {
+  border: none;
+  background-color: transparent;
+  color: beige;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.count {
+  font-family: 'Roboto';
+  font-size: 18px;
+  color: beige;
+  align-items: center;
+  text-align: center;
+}
