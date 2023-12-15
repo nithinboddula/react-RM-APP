@@ -15,9 +15,9 @@ const ItemHeading = props => {
     <button
       type="button"
       onClick={onClickTabItem}
-      className={`label ${activeTabClassName}`}
+      className={`tab-button ${activeTabClassName}`}
     >
-      <p>{menuCategory}</p>
+      <label className="tab-name">{menuCategory}</label>
     </button>
   )
 }
