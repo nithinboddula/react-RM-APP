@@ -1,13 +1,11 @@
 import {Component} from 'react'
 // import {BrowserRouter} from 'react-router-dom'
-
+import Home from './components/Home'
 import './App.css'
-import Header from './components/Header'
-// import CartContext from './context/CartContext'
 
 class App extends Component {
   render() {
-    return <Header />
+    return <Home />
   }
 }
 

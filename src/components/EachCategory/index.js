@@ -20,7 +20,7 @@ const EachCategory = props => {
   }))
 
   return eachCategoryItems.map(eachItem => (
-    <ItemCard key={eachItem.dishId} data={eachItem} />
+    <ItemCard key={eachItem.dishId} dishDetails={eachItem} />
   ))
 }
 
